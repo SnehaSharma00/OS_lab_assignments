@@ -1,0 +1,28 @@
+=== OS LAB: Process Creation & Management Simulation ===
+
+--- Task 1: Process Creation ---
+Child 1: PID=853, Parent PID=852, Message='Hello from child process 1'
+Child 2: PID=854, Parent PID=852, Message='Hello from child process 2'
+
+--- Task 2: Command Execution using execvp() ---
+
+Executing command: date
+Sun Oct  5 15:08:11 UTC 2025
+
+Executing command: whoami
+sneha
+
+--- Task 4: Inspect Process Info ---
+Name:   python3
+State:  R (running)
+VmSize:    16976 kB
+Executable Path: /usr/bin/python3.12
+Open File Descriptors: ['0', '1', '2', '3']
+
+--- Task 5: Process Prioritization using nice() ---
+Child 1 (nice=0) started, PID=857
+Child 2 (nice=5) started, PID=858
+Child 3 (nice=10) started, PID=859
+Child 3 (nice=10) finished in 3.00s
+Child 1 (nice=0) finished in 3.00s
+Child 2 (nice=5) finished in 3.00s
