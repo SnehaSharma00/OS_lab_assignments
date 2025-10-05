@@ -8,14 +8,14 @@
 
 ## Repository Structure
 
-OS_assignment/
-├── OS_assignment1/
-│ ├── process_management.py
-│ └── output.txt
-├── OS_assignment2/
-│ ├── system_startup.py
-│ └── process_log.txt
-└── README.md
+* OS_assignment/
+* ├── OS_assignment1/
+* │ ├── process_management.py
+* │ └── output.txt
+* ├── OS_assignment2/
+* │ ├── system_startup.py
+* │ └── process_log.txt
+* └── README.md
 
 
 ## Setup Instructions
@@ -30,11 +30,11 @@ OS_assignment/
 git clone https://github.com/SnehaSharma00/OS_lab_assignments.git
 cd "OS_assignment"
 
-Assignment 1: Process Creation and Management 
-File: process_management.py
-Output: output.txt
+### Assignment 1: Process Creation and Management 
+* File: process_management.py
+* Output: output.txt
 
-Steps to Run
+#### Steps to Run
 Windows
 
 cd OS_assignment1
@@ -45,12 +45,13 @@ Linux
 cd OS_assignment1
 python3 process_management.py
 
+
 The program executes all tasks, including process creation, command execution, simulated zombie/orphan processes, and process info inspection. Output is saved in output.txt.
 
-Tasks Covered
+#### Tasks Covered
 1. Process creation using Python's multiprocessing
 
-2. Execute system commands using subprocess
+2.  Execute system commands using subprocess
 
 3. Simulated zombie and orphan processes
 
@@ -58,11 +59,11 @@ Tasks Covered
 
 5. Simulated process prioritization
 
-Assignment 2: System Startup Simulation 
-File: system_startup.py
-Output: process_log.txt
+### Assignment 2: System Startup Simulation 
+* File: system_startup.py
+* Output: process_log.txt
 
-Steps to Run
+#### Steps to Run
 
 Windows:
 
@@ -77,7 +78,7 @@ python3 system_startup.py
 
 process_log.txt will contain timestamped logs of process execution.
 
-Tasks Covered
+#### Tasks Covered
 1. Initialize logging for process events
 
 2. Define dummy process tasks
@@ -86,7 +87,7 @@ Tasks Covered
 
 4. Ensure proper termination and logging
 
-Notes
+#### Notes
 > Both scripts are cross-platform compatible.
 
 > Ensure Python is added to your system PATH.
